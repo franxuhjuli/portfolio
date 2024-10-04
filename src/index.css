@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: rgb(83,0,53);
+    background: linear-gradient(111deg, rgba(83,0,53,1) 0%, rgba(82,2,78,1) 17%, rgba(92,16,101,1) 40%, rgba(22,59,85,1) 70%, rgba(9,14,96,1) 94%, rgba(1,6,77,1) 100%);
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
