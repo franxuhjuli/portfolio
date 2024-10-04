@@ -21,7 +21,7 @@ export function Contact() {
                 href="https://github.com/franxuhjuli"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-orange-500"
+                className="text-white hover:text-orange-500 duration-300"
               >
                 <FaGithub size={38} />
               </a>
@@ -29,22 +29,22 @@ export function Contact() {
                 href="https://www.linkedin.com/in/francisco-j-alvarez-lopez/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-orange-500"
+                className="text-white hover:text-orange-500 duration-300"
               >
                 <FaLinkedin size={38} />
               </a>
               <a
-                href="https://linkedin.com/in/tuusuario"
+                href="https://wa.me/+34667376807"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-orange-500"
+                className="text-white hover:text-orange-500 duration-100 hover:scale-105 active:scale-100"
               >
                 <FaWhatsapp size={38} />
               </a>
             </div>
           </div>
           <div>
-            <h3 className="text-2xl font-semibold mb-4">Envíame un mensaje</h3>
+            <h3 className="text-2xl font-semibold mb-4">Envíame un correo electrónico</h3>
             <form
               className="space-y-4"
               action="https://formspree.io/f/manywwvn"

@@ -6,8 +6,8 @@ export function Hero() {
   <div className="md:w-1/2 mb-8 md:mb-0">
     <h2 className="text-4xl font-bold mb-4">Hola, soy Francisco J. Álvarez</h2>
     <p className="text-xl mb-6  text-orange-400">Desarrollador web apasionado por crear experiencias digitales increíbles.</p>
-    <button className="bg-white text-purple-800 px-4 py-2 rounded hover:bg-orange-400 hover:text-purple-950 transition duration-300 hover:scale-115">
-      Descargar CV
+<button className="bg-white text-purple-800 px-4 py-2 rounded hover:bg-orange-400 hover:text-purple-950 transition duration-100 hover:scale-105 active:scale-100">
+<a className="2rem 1rem" href="./public/CV-francisco_j_alvarez.pdf" download="CV Francisco J. Alvarez">Descargar CV</a>
     </button>
   </div>
   <div className="md:w-1/2">
