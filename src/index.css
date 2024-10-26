@@ -2,11 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior:smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    background: rgb(83,0,53);
-    background: linear-gradient(111deg, rgba(83,0,53,1) 0%, rgba(82,2,78,1) 17%, rgba(92,16,101,1) 40%, rgba(22,59,85,1) 70%, rgba(9,14,96,1) 94%, rgba(1,6,77,1) 100%);
+    /*background: rgb(83,0,53);
+    background: linear-gradient(111deg, rgba(83,0,53,1) 0%, rgba(82,2,78,1) 17%, rgba(92,16,101,1) 40%, rgba(22,59,85,1) 70%, rgba(9,14,96,1) 94%, rgba(1,6,77,1) 100%);*/
     color: white;
+    background: rgb(39,9,96);
+    background: linear-gradient(111deg, rgba(39,9,96,1) 0%, rgba(97,19,69,1) 26%, rgba(94,2,90,1) 52%, rgba(0,48,82,1) 76%, rgba(0,7,97,1) 100%);
+    
 }
 
 h1,
