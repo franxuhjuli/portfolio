@@ -1,27 +1,32 @@
 import { FaExternalLinkAlt } from "react-icons/fa";
 
+
+
 export function Card({ 
     title, 
     description, 
     imageUrl, 
     technologies = [], 
-    projectUrl 
+    projectUrl,
+    aditionalClassName = "",
+    
   }) {
     return (
-      <div className=" bg-indigo-200 bg-opacity-10 rounded-lg shadow-xl overflow-hidden max-w-sm w-full">
-        <div className="relative h-auto w-full">
+      <div className="bg-indigo-200 bg-opacity-10 rounded-lg shadow-xl overflow-hidden max-w-sm w-full md:w-1/2">
+        <div className="relative h-auto w-full className">
           <img
+            onClick={() => window.open(projectUrl, "_blank")}
             src={imageUrl}
             alt={title}
-            className=" w-full h-full transition-transform duration-300 ease-in-out hover:scale-105 "
+            className="cursor-pointer w-full h-full transition-transform duration-300 ease-in-out hover:scale-105 "
           />
         </div>
-        <div className="p-6">
+        <div className={`${aditionalClassName} p-6`}>
           <h2 className="text-xl text-white font-semibold mb-2">{title}</h2>
           <p className="text-purple-200 text-sm mb-4">{description}</p>
           <div className="flex flex-wrap gap-2 mb-4">
             {Array.isArray(technologies) && technologies.map((tech, index) => (
-              <span key={index} className="px-2 py-1 bg-gray-200 text-indigo-900 text-xs font-medium rounded-sm">
+              <span key={index} className="px-2 py-1 bg-orange-600 text-indigo-900 text-xs font-bold rounded-sm">
                 {tech}
               </span>
             ))}
