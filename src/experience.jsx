@@ -17,18 +17,18 @@ export function Experience() {
             <h3 className="text-lg md:text-2xl font-semibold">
               Desarrollador Front-End | Diseñador web
             </h3>
-            <p className="text-orange-500">Yub Store S.L., 2022-2023</p>
+            <p className="text-orange-500 mb-4">Yub Store S.L., 2022-2023</p>
             <ul className="list-disc list-inside mt-2">
-              <li className="mb-2">
+              <li className="mb-4">
                 Desarrollo y mantenimiento de interfaces web responsive usando
                 HTML, CSS y JavaScript cuidando el atractivo visual y la
-                experiencia de usuario{" "}
+                experiencia de usuario
               </li>
-              <li className="mb-2">
+              <li className="mb-4">
                 Diseño de sitios web completos y material gráfico basado en la
                 identidad visual del cliente
               </li>
-              <li className="mb-2">
+              <li className="mb-4">
                 Personalización mediante HTML, CSS y JavaScript de páginas web
                 maquetadas con Bootstrap
               </li>
@@ -38,7 +38,7 @@ export function Experience() {
             <h3 className="text-lg md:text-2xl font-semibold">
               Diseñador gráfico | Responsable de Marketing
             </h3>
-            <p className="text-orange-500">Te Doy Salud S.L., 2019-2022</p>
+            <p className="text-orange-500 mb-4">Te Doy Salud S.L., 2019-2022</p>
             <ul className="list-disc list-inside mt-2">
               <li className="mb-4">
                 Gestión y mantenimiento de webs creadas con Wordpress y

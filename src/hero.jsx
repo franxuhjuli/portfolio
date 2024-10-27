@@ -9,10 +9,10 @@ export function Hero() {
           <h2 className="text-4xl font-bold mb-4">
             Hola, soy Francisco J. Álvarez
           </h2>
-          <h3 className="text-xl mb-6  text-orange-400">
+          <h3 className="text-xl mb-2  text-orange-400">
             Desarrollador Front-End y Diseñador Gráfico{" "}
           </h3>
-          <p>
+          <p className="mb-6">
             Transformo ideas en interfaces web, combinando diseño, desarrollo
             técnico y enfoque en la experiencia del usuario.
           </p>
