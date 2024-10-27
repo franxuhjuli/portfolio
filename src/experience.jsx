@@ -28,7 +28,7 @@ export function Experience() {
                 Diseño de sitios web completos y material gráfico basado en la
                 identidad visual del cliente
               </li>
-              <li className="mb-8">
+              <li className="mb-12">
                 Personalización mediante HTML, CSS y JavaScript de páginas web
                 maquetadas con Bootstrap
               </li>
