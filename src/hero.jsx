@@ -16,7 +16,7 @@ export function Hero() {
 
           <a
             className="2rem 1rem bg-white text-purple-800 px-4 py-2 rounded hover:bg-orange-400 hover:text-purple-950 transition duration-100 hover:scale-105 active:scale-100"
-            href="./public/CV-francisco_j_alvarez.pdf"
+            href="/CV-francisco_j_alvarez.pdf"
             download="CV Francisco J. Alvarez"
           >
             Descargar CV
