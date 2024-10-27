@@ -30,7 +30,7 @@ export function Card({
         <div className={`${aditionalClassName} p-6`}>
           <h2 className="text-xl text-orange-600 font-semibold mb-2">{title}</h2>
           <p className="text-purple-200 text-sm mb-4">{description}</p>
-          <div className="flex flex-wrap gap-2 mb-4">
+          <div className="flex flex-wrap gap-2 mb-2">
             {Array.isArray(technologies) && technologies.map((tech, index) => (
               <span key={index} className="px-2 py-1 bg-white text-indigo-900 text-xs font-bold rounded-sm">
                 {tech}

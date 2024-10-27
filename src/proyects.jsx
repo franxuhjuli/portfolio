@@ -1,7 +1,6 @@
 import { Card } from "./card.jsx";
 import { FaFileCode } from "react-icons/fa";
 import Landing  from "./assets/landing.jpg";
-import BlackJack from "./assets/blackjack.jpeg";
 import EnConstruccion from "./assets/en-construccion.jpg";
 
 
@@ -13,7 +12,7 @@ export function Proyects() {
         <FaFileCode className="mr-4" />
         Proyectos
       </h2>
-      <div className="flex flex-column md:flex-row justify-between gap-8">
+      <div className="flex flex-col md:flex-row justify-between gap-8">
         <Card
           title="Web: Leitmotiv Area"
           description="Landing page responsive desarrollada con React y TailwindCSS. Construida con componentes de React para facilitar el mantenimiento y la escalabilidad."
@@ -23,7 +22,7 @@ export function Proyects() {
         />
         <Card
           title="Aplicación web: Black Jack"
-          description="Juego clásico Black Jack, implementado con Html, CSS y Javascript. Interfaz responsiva creada utilizando la Api Canvas de JavaScript y animaciones nativas de CSS."
+          description="Juego clásico Black Jack, implementado con Html, CSS y Javascript. Interfaz responsive utilizando la Api Canvas de JS y animaciones nativas de CSS."
           imageUrl={EnConstruccion}
           technologies={["Html", "CSS", "Javascript", "Canvas"]}
           projectUrl=""
