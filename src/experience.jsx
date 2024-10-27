@@ -28,7 +28,7 @@ export function Experience() {
                 Diseño de sitios web completos y material gráfico basado en la
                 identidad visual del cliente
               </li>
-              <li className="mb-4">
+              <li className="mb-8">
                 Personalización mediante HTML, CSS y JavaScript de páginas web
                 maquetadas con Bootstrap
               </li>
@@ -49,7 +49,7 @@ export function Experience() {
                 Diseño gráfico y creación de contenido para diferentes webs,
                 RRSS y otros medios audiovisuales
               </li>
-              <li className="mb-4">
+              <li className="mb-8">
                 Planificacíon y ejecución de estrategias de marketing,
                 incluyendo campañas SEM, email marketing, redes sociales y
                 marketing de contenidos

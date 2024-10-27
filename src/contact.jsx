@@ -5,7 +5,7 @@ import {
   FaWhatsapp,
   FaPhoneSquare,
 } from "react-icons/fa";
-import { IoLogoWhatsapp } from "react-icons/io";
+
 
 export function Contact() {
   return (
