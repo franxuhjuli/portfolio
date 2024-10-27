@@ -13,32 +13,41 @@ export function Education() {
             <h3 className="text-2xl font-semibold mb-4">Formación</h3>
             <ul className="space-y-4 flex flex-col gap-4">
               <li>
-              <p className="text-orange-500">F.P. Grado Superior</p>
+                <p className="text-orange-400">F.P. Grado Superior</p>
                 <h3 className="text-lg md:text-2xl font-semibold">
                   Desarrollo de Aplicaciones Web (DAW)
                 </h3>
-                <p className="text-purple-300">I.E.S. Jose Planes (Murcia), 2022-En curso</p>
+                <p className="text-purple-300">
+                  I.E.S. Jose Planes (Murcia), 2022-En curso
+                </p>
               </li>
               <li>
-              <p className="text-orange-500">F.P. Grado Superior</p>
+                <p className="text-orange-400">F.P. Grado Superior</p>
                 <h3 className="text-lg md:text-2xl font-semibold">
-                Marketing y Publicidad
+                  Marketing y Publicidad
                 </h3>
-                <p className="text-purple-300">I.E.S. Federico García Lorca (Albacete), 2019-2022</p>
+                <p className="text-purple-300">
+                  I.E.S. Federico García Lorca (Albacete), 2019-2022
+                </p>
               </li>
               <li>
-                <p className="text-orange-500">Certificado profesionalidad</p>
+                <p className="text-orange-400">Certificado profesionalidad</p>
                 <h3 className="text-lg md:text-2xl font-semibold">
-                Programación con Lenguajes Orientados a Objetos y Bases de Datos Relacionales
+                  Programación con Lenguajes Orientados a Objetos y Bases de
+                  Datos Relacionales
                 </h3>
-                <p className="text-purple-300">Inforcad Centro de formación (Hellín), 2019</p>
+                <p className="text-purple-300">
+                  Inforcad Centro de formación (Hellín), 2019
+                </p>
               </li>
               <li>
-              <p className="text-orange-500">Formación Ocupacional</p>
+                <p className="text-orange-400">Formación Ocupacional</p>
                 <h3 className="text-lg md:text-2xl font-semibold ">
                   Técnico Auxiliar en Sistemas Microinformáticos
                 </h3>
-                <p className="text-purple-300">Inforcad Centro de formación (Hellín), 2005-2006</p>
+                <p className="text-purple-300">
+                  Inforcad Centro de formación (Hellín), 2005-2006
+                </p>
               </li>
             </ul>
           </div>

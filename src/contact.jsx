@@ -1,4 +1,11 @@
-import { FaEnvelope, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaGithub,
+  FaLinkedin,
+  FaWhatsapp,
+  FaPhoneSquare,
+} from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 export function Contact() {
   return (
@@ -10,13 +17,24 @@ export function Contact() {
         </h2>
         <div className="grid md:grid-cols-2 gap-8">
           <div>
-            <h3 className="text-2xl font-semibold mb-4">Datos de contacto</h3>
-            <ul className="space-y-2">
-              <li>Email: fjalvarez1984@gmail.com</li>
-              <li>Teléfono: +(34) 667 37 68 07</li>
-              <li>Ubicación: Murcia, España</li>
+            <h3 className="text-2xl font-semibold pb-6">Datos de contacto</h3>
+            <ul className="space-y-2 text-lg pb-4">
+              <li>
+                <span className="text-orange-400">Email: </span>{" "}
+                fjalvarez1984@gmail.com
+              </li>
+              <li>
+                <span className="text-orange-400">Teléfono:</span>{" "}
+                <a href="tel:+34667376807" className="hover:text-orange-400">
+                  +(34) 667 37 68 07
+                </a>
+              </li>
+              <li>
+                <span className="text-orange-400">Ubicación:</span> Murcia,
+                España
+              </li>
             </ul>
-            <div className="mt-4 flex flex-row space-x-4">
+            <div className="mt-4 flex flex-row space-x-4 gap-2">
               <a
                 href="https://github.com/franxuhjuli"
                 target="_blank"
@@ -41,10 +59,20 @@ export function Contact() {
               >
                 <FaWhatsapp size={38} />
               </a>
+              <a
+                href="tel:+34667376807"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-orange-500 duration-100 hover:scale-105 active:scale-100"
+              >
+                <FaPhoneSquare size={38} />
+              </a>
             </div>
           </div>
           <div>
-            <h3 className="text-2xl font-semibold mb-4">Envíame un correo electrónico</h3>
+            <h3 className="text-2xl font-semibold mb-6">
+              Envíame un correo electrónico
+            </h3>
             <form
               className="space-y-4"
               action="https://formspree.io/f/manywwvn"
@@ -81,7 +109,7 @@ export function Contact() {
                 <textarea
                   id="message"
                   name="message"
-                  rows={4}
+                  rows={3}
                   className="w-full px-3 py-2 border border-purple-300  text-indigo-800 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-400"
                   required
                 ></textarea>
