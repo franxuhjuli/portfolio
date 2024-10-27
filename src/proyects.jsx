@@ -13,7 +13,7 @@ export function Proyects() {
         <FaFileCode className="mr-4" />
         Proyectos
       </h2>
-      <div className="flex flex-column md:flex-row justify-between">
+      <div className="flex flex-column md:flex-row justify-between gap-8">
         <Card
           title="Web: Leitmotiv Area"
           description="Landing page responsive desarrollada con React y TailwindCSS. Construida con componentes de React para facilitar el mantenimiento y la escalabilidad."
