@@ -18,7 +18,7 @@ export function Education() {
                   Desarrollo de Aplicaciones Web (DAW)
                 </h3>
                 <p className="text-purple-300">
-                  I.E.S. Jose Planes (Murcia), 2022-En curso
+                  I.E.S. Jose Planes (Murcia), 2022-2025 (En curso)
                 </p>
               </li>
               <li>

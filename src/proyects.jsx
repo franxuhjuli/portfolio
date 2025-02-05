@@ -21,8 +21,8 @@ export function Proyects() {
           projectUrl="https://leitmotiv-area-web.vercel.app/"
         />
         <Card
-          title="Aplicación web: Black Jack"
-          description="Juego clásico Black Jack, implementado con Html, CSS y Javascript. Interfaz responsive utilizando la Api Canvas de JS y animaciones nativas de CSS."
+          title="Futuro proyecto"
+          description="Pendiente de actualizar"
           imageUrl={EnConstruccion}
           technologies={["Html", "CSS", "Javascript", "Canvas"]}
           projectUrl=""
